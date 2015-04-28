@@ -1,0 +1,168 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-tn7y6e');
+  src:url('fonts/icomoon.eot?#iefix-tn7y6e') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-tn7y6e') format('woff'),
+    url('fonts/icomoon.ttf?-tn7y6e') format('truetype'),
+    url('fonts/icomoon.svg?-tn7y6e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#smile-rating {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 33rem;
+  margin: 50px 0;
+  text-align: center;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:active, button:focus {
+  outline: 0;
+  outline: none !important;
+  border: none !important;
+}
+
+.teddy-bear:before {
+  content: "\e604";
+  color: #5acf0c;
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+   from {
+      color: #0e92cf;
+   }
+   to {
+      color: #ea0edb;
+   }
+ }
+
+.mister-rogers:before {
+  content: "\e602";
+  color: #5acf0c;
+}
+
+.borderline:before {
+  content: "\e603";
+  color: gray;
+}
+
+.oscar-the-grouch:before {
+  content: "\e601";
+  color: #e9610f;
+}
+
+.troll:before {
+  content: "\e600";
+  color: #c60b3b;
+}
+
+.krampus:before {
+  content: "\e605";
+  animation-duration: 100ms;
+  animation-name: blink2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink2 {
+   from {
+      color: #e80e32;
+   }
+   to {
+      color: black;
+   }
+ }
+
+.empty:before {
+  content: "\e606";
+  color: #bbbbbb;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  padding: 20px 0;
+  background: black;
+  color: white;
+}
+
+.boss-rating {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.boss-rating li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+.boss-rating li:first-child {
+  margin-left: 0;
+}
+
+.boss-title {
+  text-transform: uppercase;
+  color: #5feaff;
+}
+
+.boss-rater {
+  display: inline-block;
+  width: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.update {
+  cursor: default;
+}
+
+.update.ready {
+  color: white;
+  animation-duration: 600ms;
+  animation-name: blink3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+@keyframes blink3 {
+   from {
+      background-color: #3aca07;
+   }
+   to {
+      background-color: #35a70d;
+   }
+ }
